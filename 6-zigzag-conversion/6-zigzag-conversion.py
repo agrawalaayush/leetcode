@@ -7,7 +7,7 @@ class Solution(object):
         """
         maxRows = numRows
         maxCols = 1001
-        if numRows == 1 and numRows == len(s):
+        if numRows == 1 and numRows >= len(s):
             return s
         arr = []
         for i in range(maxRows):
