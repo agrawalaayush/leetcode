@@ -27,4 +27,3 @@ class Solution(object):
             nums1[k] = nums2[n]
             k=k-1
             n=n-1
-        return nums1
